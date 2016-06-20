@@ -1,0 +1,13 @@
+version: '2'
+
+volumes:
+  npm-modules:
+services:
+  bjrt:
+    build: .
+    image: fculpo/bjrt
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/usr/src/app
+      - npm-modules:/usr/src/app/node_modules

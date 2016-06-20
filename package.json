@@ -1,0 +1,12 @@
+{
+  "name": "blackjack-rt",
+  "description": "A browser-based BlackJack Game",
+  "author": "Fabien Culpo <fabien.culpo@gmail.com>",
+  "version": "0.2.0",
+  "dependencies": {
+    "express": "4.x.x",
+    "socket.io": "1.4.5",
+    "node-uuid": "1.4.x",
+    "winston": "0.7.x"
+  }
+}
